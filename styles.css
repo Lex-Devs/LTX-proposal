@@ -145,6 +145,10 @@ nav ul li a.active {
     background-color: gold;
     color: #111;
 }
+.hero .eyebrow {
+    font-size: 2rem;
+    font-family: "Syne";
+}
 main {
     padding: 1.5rem;
     max-width: var(--width-max);
@@ -192,6 +196,7 @@ main {
 }
 .highlight {
     color: var(--highlight);
+    border-bottom: 2px solid var(--highlight);
 }
 
 @media (max-width: 50rem) {
