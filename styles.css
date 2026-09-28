@@ -16,6 +16,7 @@
     --font-pop: "Syne";
     --font-logo: "Space Mono";
     --width-max: 60rem;
+    --highlight: #ff0;
 }
 body {
     font-family: var(--font-sans), sans-serif;
@@ -188,6 +189,9 @@ main {
 .feature:hover {
     /* background-color: #bbddfd; */
     background-color: #fffaa0;
+}
+.hightlight {
+    color: var(--highlight);
 }
 
 @media (max-width: 50rem) {
