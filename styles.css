@@ -51,19 +51,21 @@ header .school {
     position: fixed;
     top: 0;
     right: 0;  
-    width: clamp(20%, 15rem, 15rem);
-    height: clamp(3rem, 5rem, 5rem);
+    width: 25em;
+    height: 7em;
     background-color: rgba(218, 41, 28, 0.5);
     border-radius: 0 0 0 1.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: white;
     font-size: 1rem;
+    padding-top: 1em;
+    line-height: 1;
 }
 header .school img {
     max-width: 80%;
-    padding: 0.5rem;
 }
 
 header a {
