@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Besley:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400..700;1,400..700&family=Alegreya+Sans+SC:ital,wght@0,100..700;1,100..700&family=Alegreya+Sans:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&family=UnifrakturCook:wght@700&display=swap');
 
 :root {
     --accent: #fa5e46;
@@ -9,11 +9,12 @@
     --button-color: #76c7c0;
     --border-color: #e0e0e0;
     --school: #da291c;
-    /* --font-sans: "Alegreya Sans"; */
-    --font-sans: "Public Sans";
+    --font-sans: "IBM Plex Sans"; 
+    /* --font-sans: "Public Sans";
     /* --font-sans: "Inter"; */
     --font-serif: "Alegreya";
-    --font-display: "Public Sans";
+    --font-display: "IBM Plex Sans";
+    /*--font-display: "Public Sans";
     /* --font-display: "Inter"; */
     --font-pop: "Syne";
     --font-logo: "Space Mono";
@@ -219,6 +220,45 @@ main {
 .feature img.half {
     width: 50%;
 }
+
+ul.rule-light {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.rule-light>li {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+ul.rule-light>li {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+ul.rule-light>li:last-child {
+    border-bottom: none;
+}
+
+ul.rule-dark {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.rule-dark>li {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+ul.rule-dark>li {
+    border-bottom: 1px solid #111;
+}
+
+ul.rule-dark>li:last-child {
+    border-bottom: none;
+}
+
 
 .button-pill {
     display: inline-block;
