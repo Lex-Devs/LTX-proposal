@@ -53,7 +53,7 @@ header .school {
     right: 0;  
     width: clamp(20em, 25em, 33%);
     background-color: rgba(218, 41, 28, 0.5);
-    border-radius: 0 0 0 1.25rem;
+    border-radius: 0 0 0 1.25em !important;
     text-align: center;
     color: white;
     font-weight: 700;
@@ -69,6 +69,7 @@ header .school img {
 }
 .warning {
     color: pink;
+    text-align: center;
 }
 
 header a {
