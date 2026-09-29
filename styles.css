@@ -10,9 +10,11 @@
     --border-color: #e0e0e0;
     --school: #da291c;
     /* --font-sans: "Alegreya Sans"; */
-    --font-sans: "Public Sans", "Inter";
+    --font-sans: "Public Sans";
+    /* --font-sans: "Inter"; */
     --font-serif: "Alegreya";
-    --font-display: "Public Sans", "Inter";
+    --font-display: "Public Sans";
+    /* --font-display: "Inter"; */
     --font-pop: "Syne";
     --font-logo: "Space Mono";
     --width-max: 60rem;
