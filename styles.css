@@ -51,23 +51,24 @@ header .school {
     position: fixed;
     top: 0;
     right: 0;  
-    width: 25em;
-    height: 7em;
+    width: clamp(20em, 25em, 33%);
     background-color: rgba(218, 41, 28, 0.5);
     border-radius: 0 0 0 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    text-align: center;
     color: white;
+    font-weight: 700;
     font-size: 1rem;
     padding-top: 1em;
+    padding-bottom: 1em;
     line-height: 1;
 }
 header .school img {
-    max-width: 80%;
+    max-width: 67%;
     padding:0;
     line-height: 1;
+}
+.warning {
+    color: pink;
 }
 
 header a {
@@ -83,6 +84,9 @@ header a {
 header a:hover {
     background-color: goldenrod;
     color: #333;
+}
+header .spacer {
+    height: 4.5em;
 }
 strong {
     font-weight: 750;
