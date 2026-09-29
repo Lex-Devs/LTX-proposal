@@ -66,6 +66,8 @@ header .school {
 }
 header .school img {
     max-width: 80%;
+    padding:0;
+    line-height: 1;
 }
 
 header a {
